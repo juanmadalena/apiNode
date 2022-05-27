@@ -1,7 +1,5 @@
 const app = require('./app')
 
-const main = ()=>{
-    app.listen(app.get("port"))
-    console.log("Server is runnig");
-}
-main()
+app.listen(app.get('port'),()=>{
+  console.log('El servidor esta conectado al puerto:'+app.get('port') );
+})

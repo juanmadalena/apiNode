@@ -1,5 +1,5 @@
 const Router = require('express')
-const moviesControllers = require('../controllers/movies.controllers')
+const moviesControllers = require('../controllers/nombre.controllers')
 const connection = require('../database/db')
 
 const router = Router()
